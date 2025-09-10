@@ -19,7 +19,7 @@ Mongolian LLMs are scarce and significantly underperform compared to English bas
 ## ⚙️ Methodology  
 
 - **Framework:** [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)  
-- **Models evaluated:** <3B parameter models publicly available on [Hugging Face](https://huggingface.co/)  
+- **Models evaluated:** <3B parameter models publicly available on [Hugging Face](https://huggingface.co/Gantumur)  
   - Tested on CPU (personal laptop)  
 - **Tasks:**  
   - Classification (sentiment, topic classification)  
@@ -47,7 +47,7 @@ Leaderboard (sample table)
 
 👉 Full results, task-by-task breakdown: results/
 
-🚀 Impact
+## 🚀 Impact
 
 Benchmarked X models (<3B params) across 4 tasks (Reasoning, Knowledge, Syntax, Semantics)
 
@@ -64,7 +64,7 @@ Created the first open leaderboard for Mongolian NLP, enabling contributions fro
 ├── requirements.txt      # Dependencies
 └── README.md             # Project overview
 
-🛠️ Quickstart
+## 🛠️ Quickstart
 
 Clone repo
 
@@ -90,7 +90,7 @@ Output JSON in results/
 
 Aggregated leaderboard in leaderboard.csv
 
-📢 Contributing
+## 📢 Contributing
 
 We welcome contributions from the community!
 Ways to contribute:
@@ -103,7 +103,7 @@ Improve analysis, visualizations, and reporting
 
 👉 Open an issue or submit a PR.
 
-📜 Citation
+## 📜 Citation
 
 If you use this benchmark in research, please cite:
 
@@ -114,7 +114,7 @@ If you use this benchmark in research, please cite:
   howpublished={\url{https://github.com/gantumurbattumur/mongolian-llm-leaderboard}}
 }
 
-🌐 Roadmap
+## 🌐 Roadmap
 
  Add more Mongolian-specific tasks (NER, POS tagging, QA)
 
