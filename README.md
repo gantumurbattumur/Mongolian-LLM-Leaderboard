@@ -35,8 +35,8 @@ flowchart TD
     C --> D[Raw Results JSON]
     D --> E[Leaderboard CSV + Tables]
     E --> F[Public Leaderboard Repo]
-
-📊 Results
+```
+## 📊 Results
 Leaderboard (sample table)
 | Rank | Model          | Params | Avg Score (MN) | Avg Score (EN baseline) | Gap (%) |
 | ---- | -------------- | ------ | -------------- | ----------------------- | ------- |
