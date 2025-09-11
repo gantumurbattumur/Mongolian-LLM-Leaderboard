@@ -36,6 +36,8 @@ flowchart TD
     D --> E[Leaderboard CSV + Tables]
     E --> F[Public Leaderboard Repo]
 ```
+---
+
 ## 📊 Results
 ## 🏆 Mongolian Benchmark Leaderboard
 | Model                              | Params | Reasoning | Knowledge | Syntax | Semantics | Avg. |
@@ -53,6 +55,8 @@ flowchart TD
 
 👉 Full results, task-by-task breakdown: results/
 
+---
+
 ## 🚀 Impact
 
 Identified gaps of 30–40% vs. English baselines
@@ -67,6 +71,8 @@ Created the first open leaderboard for Mongolian NLP, enabling contributions fro
 ├── leaderboard.csv       # Consolidated leaderboard table
 ├── requirements.txt      # Dependencies
 └── README.md             # Project overview
+
+---
 
 ## 🛠️ Quickstart
 
@@ -94,6 +100,8 @@ Output JSON in results/
 
 Aggregated leaderboard in leaderboard.csv
 
+---
+
 ## 📢 Contributing
 
 We welcome contributions from the community!
@@ -107,6 +115,7 @@ Improve analysis, visualizations, and reporting
 
 👉 Open an issue or submit a PR.
 
+---
 
 
 ## 🌐 Roadmap
