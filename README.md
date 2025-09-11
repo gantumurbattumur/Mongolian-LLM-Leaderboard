@@ -72,7 +72,7 @@ Created the first open leaderboard for Mongolian NLP, enabling contributions fro
 
 Clone repo
 
-git clone https://github.com/yourusername/mongolian-llm-leaderboard.git
+git clone https://github.com/gantumurbattumur/mongolian-llm-leaderboard.git
 cd mongolian-llm-leaderboard
 
 
@@ -107,16 +107,7 @@ Improve analysis, visualizations, and reporting
 
 👉 Open an issue or submit a PR.
 
-## 📜 Citation
 
-If you use this benchmark in research, please cite:
-
-@misc{mongolian-llm-leaderboard,
-  title={Mongolian LLM Benchmark Leaderboard},
-  author={Your Name},
-  year={2025},
-  howpublished={\url{https://github.com/gantumurbattumur/mongolian-llm-leaderboard}}
-}
 
 ## 🌐 Roadmap
 
