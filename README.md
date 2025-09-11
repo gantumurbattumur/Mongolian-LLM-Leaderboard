@@ -21,11 +21,11 @@ Mongolian LLMs are scarce and significantly underperform compared to English bas
 - **Framework:** [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)  
 - **Models evaluated:** <3B parameter models publicly available on [Hugging Face](https://huggingface.co/Gantumur)  
   - Tested on CPU (personal laptop)  
-- **Tasks:**  
-  - Classification (sentiment, topic classification)  
-  - QA (Mongolian QA datasets, if available)  
-  - Cloze/Completion tasks  
-  - Cross-lingual benchmarks vs. English equivalents  
+- **Evaluation Benchmarks:**  
+- **Reasoning** → logical & mathematical problem solving  
+- **Knowledge** → factual recall and world knowledge  
+- **Syntax** → grammatical correctness and fluency  
+- **Semantics** → contextual understanding and coherence  
 
 **Pipeline overview:**  
 ```mermaid
@@ -37,19 +37,23 @@ flowchart TD
     E --> F[Public Leaderboard Repo]
 ```
 ## 📊 Results
-Leaderboard (sample table)
-| Rank | Model          | Params | Avg Score (MN) | Avg Score (EN baseline) | Gap (%) |
-| ---- | -------------- | ------ | -------------- | ----------------------- | ------- |
-| 🥇    | tinyllama-mn   | 1.1B   | 49.2           | 78.5                    | -29.3   |
-| 🥈    | mn-bert-small  | 110M   | 40.0           | 72.1                    | -32.1   |
-| 🥉    | xlm-roberta-mn | 270M   | 45.6           | 76.4                    | -30.8   |
+# 🏆 Mongolian Benchmark Leaderboard
+| Model                              | Params | Reasoning | Knowledge | Syntax | Semantics | Avg. |
+| ---------------------------------- | ------ | --------- | --------- | ------ | --------- | ---- |
+| meta-llama/Llama-3.2-3B-Instruct   | 3B     | 42.7      | 54.2      | 68.3   | 61.5      | 56.7 |
+| cerebras/btlm-3b-8k-base           | 3B     | 39.1      | 49.8      | 64.0   | 58.9      | 52.9 |
+| stabilityai/stablecode-instruct-3b | 3B     | 31.2      | 41.2      | 59.7   | 52.4      | 46.1 |
 
+# 🌍 Cross-Lingual Comparison (English vs Mongolian)
+| Model                              | Params | Mongolian Avg. | English Avg. |
+| ---------------------------------- | ------ | -------------- | ------------ |
+| meta-llama/Llama-3.2-3B-Instruct   | 3B     | 56.7           | 67.4         |
+| cerebras/btlm-3b-8k-base           | 3B     | 52.9           | 63.2         |
+| stabilityai/stablecode-instruct-3b | 3B     | 46.1           | 58.7         |
 
 👉 Full results, task-by-task breakdown: results/
 
 ## 🚀 Impact
-
-Benchmarked X models (<3B params) across 4 tasks (Reasoning, Knowledge, Syntax, Semantics)
 
 Identified gaps of 30–40% vs. English baselines
 
