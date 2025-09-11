@@ -1,0 +1,13 @@
+{
+  "results": {
+    "reasoning": {"acc": 0.391},
+    "knowledge": {"acc": 0.498},
+    "syntax": {"acc": 0.640},
+    "semantics": {"acc": 0.589}
+  },
+  "config": {
+    "model": "cerebras/btlm-3b-8k-base",
+    "params": "3B",
+    "dataset": "Mongolian Benchmarks"
+  }
+}

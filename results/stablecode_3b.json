@@ -1,0 +1,13 @@
+{
+  "results": {
+    "reasoning": {"acc": 0.312},
+    "knowledge": {"acc": 0.412},
+    "syntax": {"acc": 0.597},
+    "semantics": {"acc": 0.524}
+  },
+  "config": {
+    "model": "stabilityai/stablecode-instruct-3b",
+    "params": "3B",
+    "dataset": "Mongolian Benchmarks"
+  }
+}

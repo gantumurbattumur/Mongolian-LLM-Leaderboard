@@ -37,14 +37,14 @@ flowchart TD
     E --> F[Public Leaderboard Repo]
 ```
 ## 📊 Results
-# 🏆 Mongolian Benchmark Leaderboard
+## 🏆 Mongolian Benchmark Leaderboard
 | Model                              | Params | Reasoning | Knowledge | Syntax | Semantics | Avg. |
 | ---------------------------------- | ------ | --------- | --------- | ------ | --------- | ---- |
 | meta-llama/Llama-3.2-3B-Instruct   | 3B     | 42.7      | 54.2      | 68.3   | 61.5      | 56.7 |
 | cerebras/btlm-3b-8k-base           | 3B     | 39.1      | 49.8      | 64.0   | 58.9      | 52.9 |
 | stabilityai/stablecode-instruct-3b | 3B     | 31.2      | 41.2      | 59.7   | 52.4      | 46.1 |
 
-# 🌍 Cross-Lingual Comparison (English vs Mongolian)
+## 🌍 Cross-Lingual Comparison (English vs Mongolian)
 | Model                              | Params | Mongolian Avg. | English Avg. |
 | ---------------------------------- | ------ | -------------- | ------------ |
 | meta-llama/Llama-3.2-3B-Instruct   | 3B     | 56.7           | 67.4         |

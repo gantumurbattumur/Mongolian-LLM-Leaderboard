@@ -1,0 +1,13 @@
+{
+  "results": {
+    "reasoning": {"acc": 0.427},
+    "knowledge": {"acc": 0.542},
+    "syntax": {"acc": 0.683},
+    "semantics": {"acc": 0.615}
+  },
+  "config": {
+    "model": "meta-llama/Llama-3.2-3B-Instruct",
+    "params": "3B",
+    "dataset": "Mongolian Benchmarks"
+  }
+}

@@ -1,0 +1,18 @@
+# Core evaluation harness
+lm-eval==0.4.2
+
+# Hugging Face ecosystem
+transformers>=4.44.0
+datasets>=2.20.0
+accelerate>=0.33.0
+huggingface_hub>=0.24.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+
+# Data handling & utilities
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Optional but recommended for speed/compatibility
+torch>=2.3.0
+tqdm>=4.66.0
